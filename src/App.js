@@ -6,7 +6,7 @@ import './App.css';
 
 import io from 'socket.io-client'
 import Chat from './Chat';
-const socket = io.connect("https://chat-4emu.onrender.com")
+const socket = io.connect("https://chatapp-txr6.onrender.com")
 function App() {
   const [username, setUsername] = useState("")
   const [room, setRoom] = useState("")
